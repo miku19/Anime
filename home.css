@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+.logo{
+    font-family: 'Aclonica';
+    font-size: 25px;
+    padding: 50px;
+    margin-left: 50px;
+}
+.logo a{
+    color: white;
+    text-decoration: bold;
+}
+.nav_bar{
+    font-family: 'poppins';
+    font-size: 25px;
+    float: right;
+    List-style: none;
+}
+.nav_bar li{
+    display: inline-block;
+}
+.nav_bar li a{
+    padding: 30px;
+}
+.nav_bar li a:hover{   
+}
+.h-text{
+    padding-top: 50px;
+}
+.carousel-item {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    filter: brightness(100%)
+}
+
+
+
+
